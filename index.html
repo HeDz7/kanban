@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kanban Daily</title>
+  </head>
+  <body>
+    <main class="kanban">
+      <section class="kanban-column one">
+        <h2 class="title">Pendente</h2>
+
+        <div class="kanban-cards">
+          <div class="kanban-card" draggable="true">
+            <div class="priority high">Alta prioridade</div>
+
+            <p class="text">Alterar imagem de back-ground do item.</p>
+
+            <div class="kanban-footer">
+              <div class="comment">
+                <span>1</span>
+                <i class="fa-regular fa-comment"></i>
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://picsum.photos/300/300.jpg"
+                  alt="Random Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kanban-column two">
+        <h2 class="title">Em processo</h2>
+
+        <div class="kanban-cards">
+          <div class="kanban-card" draggable="true">
+            <div class="priority medium">Médio</div>
+
+            <p class="text">Trocar font-size do texto.</p>
+
+            <div class="kanban-footer">
+              <div class="comment">
+                <span>1</span>
+                <i class="fa-regular fa-comment"></i>
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://picsum.photos/200/300.jpg"
+                  alt="Random Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kanban-column three">
+        <h2 class="title">Revisão</h2>
+
+        <div class="kanban-cards">
+          <div class="kanban-card" draggable="true">
+            <div class="priority high">Alta prioridade</div>
+
+            <p class="text">Alterar imagem de back-ground do item.</p>
+
+            <div class="kanban-footer">
+              <div class="comment">
+                <span>1</span>
+                <i class="fa-regular fa-comment"></i>
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://picsum.photos/500/300.jpg"
+                  alt="Random Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kanban-column four">
+        <h2 class="title">Feito</h2>
+
+        <div class="kanban-cards">
+          <div class="kanban-card" draggable="true">
+            <div class="priority low">Baixa prioridade</div>
+
+            <p class="text">Mudar ícone do botão de "voltar ao topo"</p>
+
+            <div class="kanban-footer">
+              <div class="comment">
+                <span>1</span>
+                <i class="fa-regular fa-comment"></i>
+              </div>
+
+              <div class="img">
+                <img
+                  src="https://picsum.photos/100/300.jpg"
+                  alt="Random Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
